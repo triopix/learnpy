@@ -1,0 +1,11 @@
+1. Python Ditionaries are the same as Java Hashmaps<>
+
+## Dictionaries and Sets aren't "SEQUENCE TYPES"
+## You cannot access them using index values
+
+- Use a "key" to get individual items from dicts. 
+- Dicts store key-value pairs
+- Set is an unordered collection of "things" 
+- No way to retrieve a specific item from a set, which can be confusing!
+- Sets can be very useful
+

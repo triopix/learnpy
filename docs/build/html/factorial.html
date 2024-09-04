@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Factorial in Python &#8212; genjitsu 1.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=61cd365c" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=f2a433a1"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="FizzBuzz in Python" href="fizz_buzz.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="factorial-in-python">
+<h1>Factorial in Python<a class="headerlink" href="#factorial-in-python" title="Link to this heading">¶</a></h1>
+<p>Compute the factorial for given <strong>positive</strong> integer <cite>n</cite></p>
+<p>The factorial of a number denoted by <cite>n</cite>!
+is the <strong>product</strong> of all the numbers
+from 1 to <cite>n</cite> <strong>inclusive</strong></p>
+<p>Thus, 4! represents:</p>
+<blockquote>
+<div><p><cite>4 * 3 * 2 * 1 = 24</cite></p>
+</div></blockquote>
+<p>0! returns 1, as per the convention for an empty product</p>
+<p>With the recursive approach, big numbers might result in stack overflow</p>
+<dl class="field-list">
+<dt class="field-odd">param <code class="docutils literal notranslate"><span class="pre">n</span></code><span class="colon">:</span></dt>
+<dd class="field-odd"><p>a positive integer</p>
+</dd>
+<dt class="field-even">param <code class="docutils literal notranslate"><span class="pre">use_recursive</span></code><span class="colon">:</span></dt>
+<dd class="field-even"><p>Defaults to <code class="docutils literal notranslate"><span class="pre">True</span></code> → uses recursive approach
+instead of iterative approach</p>
+</dd>
+<dt class="field-odd">return<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the product of <cite>n</cite>!</p>
+</dd>
+<dt class="field-even">rtype<span class="colon">:</span></dt>
+<dd class="field-even"><p><cite>int</cite></p>
+</dd>
+<dt class="field-odd">raises<span class="colon">:</span></dt>
+<dd class="field-odd"><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">ValueError</span></code> → if <code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">&lt;</span> <span class="pre">0</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">TypeError</span></code> → if <code class="docutils literal notranslate"><span class="pre">type(n)</span></code> is not <code class="docutils literal notranslate"><span class="pre">int</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Recursion</span> <span class="pre">Error</span></code> → if max recursion depth reached</div>
+</div>
+</dd>
+</dl>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">genjitsu</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="fibonacci.html">Fibonacci sequence in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fizz_buzz.html">FizzBuzz in Python</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Factorial in Python</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="fizz_buzz.html" title="previous chapter">FizzBuzz in Python</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, archismann.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/factorial.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

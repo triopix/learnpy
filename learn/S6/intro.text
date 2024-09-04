@@ -1,0 +1,56 @@
+Parameter: values listed inside the function definition
+
+Arguments: Value that are sent to the function when its called
+
+Method: A function that is bound to an instance of a class is called a method
+
+Class.methods -> example of naming convention
+
+Mutable Objects: Behaviour close to pass by reference
+Immutable Objects: Behaviour is close to pass by value 
+
+But this doesn't mean in anything in python, because it decides on the binding startegy itself at runtime. 
+
+--------------------------------------------------------------------------------------------------------------------------
+Evaluation Strategy: https://en.wikipedia.org/wiki/Evaluation_strategy
+--------------------------------------------------------------------------------------------------------------------------
+
+Pass/Call by Value:
+
+Varaiable values of arguments in func call 
+are directly copied into their respective 
+positional parameters in func definition.
+
+In pass by value, because the argument(s) is/are copied into the respective paramter(s), 
+the changes made INSIDE the function aren't reflected in the caller's scope.
+
+In this evaluation startegy -> the function does whatever it needs to with the PARAMETERS instead of
+the passed arguments. 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+To change the ORIGINAL ARGUMENTS themselves, you have to pass by reference. 
+
+Pass by Reference:
+
+Parameters are now "pointing" to the references of their respective arguments instead. 
+
+This is called pass/call by reference. In the function DEFINITION, we need to POINT BACK to the original arguments, 
+therefore we use value-at-address operator * to dereference the values. & represents the address-of-value operator. 
+
+If a, and b represent the argument values at function call, then &a, &b represent the address-of a, and address-of b 
+respectively. 
+
+Let x and y represent the function parameters. Therefore x = &a, and y = &b represent the reference address to a, 
+and the reference address to b
+
+Dereferencing the value at x, and y, would give you the respective original values of a, and b.
+Therefore *x = a, and *y = b, because *(&a) = a, and *(&b) = b 
+
+C/C++ and many other languages require you to do this yourself, but python does it itself based on whether the 
+object is immutale or mutable.
+-----------------------------------------------------------------------------------------------------------------------------
+Therefore python is known as a call-by-object or call-by-sharing or pass-by-assignment language. 
+
+Topic: https://www.youtube.com/watch?v=otWHB_IEeHI&t=48s
+

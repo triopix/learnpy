@@ -1,0 +1,64 @@
+1. Learn python and code in it or continue doing more  
+
+Want to get into AI/Machine Learning
+
+contribute to open source
+
+3. Get internship in first year summer
+
+
+Learn data structures and algorithms and do leetcode
+
+
+Do few projects, and set up a good hand in python
+Then watch tim video on lucrative projects to build
+open source
+
+See tims video on skills other than coding that really make you good
+like learning the bash shell, git, and other things like CI/CD
+
+then participate in hackathons
+Keep bulding skills by trying different skills
+
+Then do leetcode for coding questions
+
+Learn more about software engineering principles
+
+
+Intervieiwng and Marketing yourself is different. Start upload projects to create a strong portfolio
+Then try to make interviews for 10-20 companies
+
+You will face rejections
+Don't feel like an impostor
+Stay confident
+
+
+Also check this:
+
+Think of python as a complicated set of tools. 
+You are applying to carpentry jobs. 
+They want you to know how to use a hammer, saw and all, 
+but they ultimately are in the business of say installing baseboards 
+and if you have no idea how to install baseboards then your tool 
+knowledge hasn’t been applied to anything they need.
+
+If I were you I would think about things that 
+businesses need to do, and then practice doing them to a professional level. 
+You can look at local job postings if needed for inspiration. 
+You will want to know how to use at least a couple of frameworks 
+(web: flask, Django, fastAPI), database stuff (SQLAlchemy, just SQL), 
+a bit of JavaScript, HTML and CSS), for 
+data science you want to know pandas, numpy, matplotlib, seaborn, 
+maybe polars. You want to know what Git is, how to use it, 
+and have a portfolio of GOOD stuff on it. 
+Have a folder in there for mini-projects, 
+but for the ‘good stuff’ keep it front and center. 
+Build a website, analyze some data, run some basic ML models, etc. 
+DO stuff that businesses need people to do.
+
+Oh and some very basic knowledge of the software development lifecycle,
+unit testing and such. 
+And maybe practice some leetcode for interviews and skill sharpening, 
+a bit of DSA helps in getting in some places.
+
+https://www.youtube.com/watch?v=_gW2vf5Yd2Y

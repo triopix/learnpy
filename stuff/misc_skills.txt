@@ -1,0 +1,11 @@
+1. Scripting (Bash) Whip up scripts
+2. Really understanding git
+3. Data Structures and Algorithms
+4. Async Programming
+5. Being Resourceful
+6. Learning how to use chatGPT
+7. CI/CD
+8. Clear coincise and accurate communication (learning how to write intentionally accurately and verbosely)
+
+No ambiguity be absolutely clear be as precise and clear. 
+

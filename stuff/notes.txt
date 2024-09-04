@@ -1,0 +1,18 @@
+https://docs.python.org/3/faq/programming.html#programming-faq
+
+Variable Names and other things:
+
+https://stackoverflow.com/questions/48721582/how-to-choose-proper-variable-names-for-long-names-in-python
+
+Style Guide Python:
+
+https://peps.python.org/pep-0008/
+
+ANSI Excape Sequences:
+
+https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
+
+Extensions for Python:
+
+https://medium.com/@huzaifazahoor654/best-vs-code-extensions-for-python-developers-e64d6509e96
+

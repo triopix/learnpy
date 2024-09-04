@@ -1,0 +1,21 @@
+1. AI/Machine Learning
+2. Os Development
+3. Computer Graphics
+4. Game Development ***
+5. Hobby Projects ***
+
+Data Structures / Algorithms to be used to solve a problem that you have
+
+Rn focus on learning python and build beginner projects with it. Automation is a big one
+
+Suggested by Dad:
+
+1. Make microsoft word type clone / excel
+2. Virtual Keyboard
+
+Make WORDLE
+Make game clones
+Make a math graphing software (simple one)
+Make a car game racing
+
+Command line tools (rust) etc...

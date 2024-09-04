@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Fibonacci sequence in Python &#8212; genjitsu 1.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=61cd365c" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=f2a433a1"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="FizzBuzz in Python" href="fizz_buzz.html" />
+    <link rel="prev" title="Welcome to genjitsu’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="fibonacci-sequence-in-python">
+<h1>Fibonacci sequence in Python<a class="headerlink" href="#fibonacci-sequence-in-python" title="Link to this heading">¶</a></h1>
+<p>Generate a Fibonacci sequence of size <cite>n</cite> (<em>#. of terms</em>)</p>
+<p>Through subscript notation <span class="math notranslate nohighlight">\(F_{n}\)</span> we can define:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(F_{n = 0} = 0\)</span> and <span class="math notranslate nohighlight">\(F_{n = 1} = 1\)</span></p>
+</div></blockquote>
+<p>and the recursive function:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(F_{n} = F_{n-1} + F_{n-2} \to \{n\in \mathbb{N}, n&gt;1\}\)</span></p>
+</div></blockquote>
+<p>Where each subsequent term <span class="math notranslate nohighlight">\(F_{n}\)</span> is produced from the
+<strong>sum</strong> of the previous two terms <span class="math notranslate nohighlight">\(F_{n-1}\)</span> and <span class="math notranslate nohighlight">\(F_{n-2}\)</span>
+in the sequence.</p>
+<p><strong>Refer to</strong>: <a class="reference external" href="https://en.wikipedia.org/wiki/Fibonacci_sequence">https://en.wikipedia.org/wiki/Fibonacci_sequence</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">param <code class="docutils literal notranslate"><span class="pre">n</span></code><span class="colon">:</span></dt>
+<dd class="field-odd"><p>number of terms in the sequence</p>
+</dd>
+<dt class="field-even">type <code class="docutils literal notranslate"><span class="pre">n</span></code><span class="colon">:</span></dt>
+<dd class="field-even"><p><cite>int</cite></p>
+</dd>
+<dt class="field-odd">return<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Return a <strong>Fibonacci sequence</strong> containing the elements up to <cite>n</cite></p>
+</dd>
+<dt class="field-even">rtype<span class="colon">:</span></dt>
+<dd class="field-even"><p><cite>tuple</cite></p>
+</dd>
+<dt class="field-odd">raises<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">ValueError</span></code> → if <code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">&lt;</span> <span class="pre">1</span></code></p>
+</dd>
+</dl>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">genjitsu</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Fibonacci sequence in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fizz_buzz.html">FizzBuzz in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="factorial.html">Factorial in Python</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to genjitsu’s documentation!</a></li>
+      <li>Next: <a href="fizz_buzz.html" title="next chapter">FizzBuzz in Python</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, archismann.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/fibonacci.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
