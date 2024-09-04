@@ -9,3 +9,4 @@
 - No way to retrieve a specific item from a set, which can be confusing!
 - Sets can be very useful
 
+I like python, honestly its pretty good. =)
