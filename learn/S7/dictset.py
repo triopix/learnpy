@@ -19,6 +19,3 @@ print(my_vehicle)
 
 learner = vehicles.get("er5")
 print(learner)
-
-
-x  
